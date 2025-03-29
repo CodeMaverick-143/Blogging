@@ -42,15 +42,9 @@ const PostCard: React.FC<{ post: BlogPost }> = ({ post }) => (
     </div>
   </Link>
 );
-
-// Props are no longer needed as we get query from URL
-// interface SearchProps {
-//   posts: BlogPost[];
-// }
-
-export function Search() { // Removed posts prop
+export function Search() { 
   const [searchParams] = useSearchParams();
-  const query = searchParams.get('q') || ''; // Get query from URL
+  const query = searchParams.get('q') || ''; 
   
   const [results, setResults] = useState<BlogPost[]>([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -58,15 +52,13 @@ export function Search() { // Removed posts prop
 
   useEffect(() => {
     if (!query) {
-        setResults(postService.getAllPosts()); // Show all if no query
+        setResults(postService.getAllPosts());
         return;
     }
 
     setIsLoading(true);
     setError(null);
     try {
-      // Simulate search delay (optional)
-      // await new Promise(resolve => setTimeout(resolve, 300));
       const searchResults = postService.searchPosts(query);
       setResults(searchResults);
     } catch (err) {
@@ -76,7 +68,7 @@ export function Search() { // Removed posts prop
     } finally {
       setIsLoading(false);
     }
-  }, [query]); // Re-run search when query changes
+  }, [query]); 
 
   return (
     <div className="space-y-8">
