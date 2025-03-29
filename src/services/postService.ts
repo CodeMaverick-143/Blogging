@@ -1,6 +1,4 @@
 import type { BlogPost } from '../types';
-
-// Expanded MOCK_POSTS array
 const MOCK_POSTS: BlogPost[] = [
   {
     id: "1",
