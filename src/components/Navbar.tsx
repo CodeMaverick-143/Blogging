@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Search, Sun, Moon, Menu, X, PlusCircle } from 'lucide-react';
+import { Sun, Moon, Menu, X, PlusCircle, Globe, Search } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 
 export function Navbar() {
@@ -38,7 +38,7 @@ export function Navbar() {
           <div className="flex items-center space-x-8">
             <Link to="/" className="flex items-center space-x-2 flex-shrink-0">
               <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center shadow-sm">
-                <span className="text-white font-bold text-lg">T</span>
+                <Globe className="text-white h-5 w-5" />
               </div>
               <span className="text-xl font-semibold text-gray-800 dark:text-white hidden sm:inline">
                 Travlog
