@@ -31,7 +31,7 @@ export function Footer() {
               <li><Link to="/" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 text-sm transition-colors">Home</Link></li>
               <li><Link to="/search" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 text-sm transition-colors">Search</Link></li>
               <li><Link to="/new" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 text-sm transition-colors">New Post</Link></li>
-              {/* Add About/Contact links here if needed */}
+              {/*We can add About/Contact links here if needed */}
             </ul>
           </div>
 
