@@ -10,16 +10,14 @@ export function Login() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setError(null); // Clear previous errors
+    setError(null);
     setIsLoading(true);
 
     // Simulate API call
     await new Promise(resolve => setTimeout(resolve, 1000));
 
-    // Placeholder logic - replace with actual auth later
     if (email === 'test@example.com' && password === 'password') {
         console.log(isSignUp ? 'Signing up...' : 'Logging in...');
-        // navigate('/'); // Redirect on success
     } else {
         setError(isSignUp ? 'Could not create account.' : 'Invalid email or password.');
     }
@@ -29,7 +27,7 @@ export function Login() {
 
   const toggleMode = () => {
     setIsSignUp(!isSignUp);
-    setError(null); // Clear errors when switching modes
+    setError(null);
     setEmail('');
     setPassword('');
   };
