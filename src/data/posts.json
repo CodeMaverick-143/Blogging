@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Exploring the Hidden Gems of Paris",
+      "content": "Paris, the City of Light, holds countless secrets waiting to be discovered beyond the iconic Eiffel Tower and Louvre Museum. In this guide, I'll take you through the charming neighborhoods and lesser-known attractions that make Paris truly special.\n\nLe Marais's Hidden Courtyards\nTucked away behind ornate doors and narrow passages, Le Marais's private courtyards offer glimpses into the city's aristocratic past. The Hôtel de Sully and Hôtel Carnavalet showcase stunning architecture and peaceful gardens away from the bustling streets.\n\nCanal Saint-Martin\nThis trendy neighborhood centers around a picturesque canal lined with hip cafes, boutiques, and plenty of spots for a perfect Parisian picnic. On Sundays, the roads are closed to cars, creating a wonderful atmosphere for exploring on foot or bicycle.\n\nRue Crémieux\nThis Instagram-famous street deserves its reputation. The pastel-colored houses and artistic facades make it one of Paris's most photogenic locations. Visit early morning to avoid crowds and capture the best photos.\n\nLocal Tips:\n- Visit markets like Marché des Enfants Rouges for authentic food experiences\n- Explore Belleville for street art and panoramic city views\n- Take a walking tour of Montmartre's quieter streets\n- Enjoy sunset at Square du Vert-Galant\n\nRemember, the true magic of Paris lies in getting lost in its streets and discovering your own hidden gems.",
+      "excerpt": "Discover the lesser-known attractions and local favorites in the City of Light...",
+      "author": "Priya Sharma",
+      "date": "2024-03-15",
+      "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+      "tags": ["Paris", "Travel", "Culture"]
+    },
+    {
+      "id": "2",
+      "title": "A Food Lover's Guide to Tokyo",
+      "content": "Tokyo's culinary scene is a fascinating blend of tradition and innovation, offering everything from centuries-old sushi techniques to cutting-edge molecular gastronomy. Let's explore the city's diverse food landscape.\n\nTsukiji Outer Market\nWhile the famous inner market has moved, the outer market still buzzes with activity. Sample fresh seafood, Japanese knives, and traditional snacks. Don't miss the tamagoyaki (sweet omelet) stands!\n\nShibuya's Modern Dining\nThe area around Shibuya Station is a food lover's paradise. From conveyor belt sushi to themed cafes, there's something for every palate. The famous Shibuya Crossing area is particularly rich in dining options.\n\nHidden Izakayas\nVenture into the narrow alleys of Golden Gai or Omoide Yokocho to discover authentic izakayas. These tiny bars serve everything from yakitori to fresh sashimi, often with just a few seats at the counter.\n\nMust-Try Experiences:\n- Visit a standing sushi bar for the authentic Tokyo experience\n- Try a traditional tea ceremony\n- Explore the depachika (department store food halls)\n- Sample street food at Ameyoko Market\n\nPro Tips:\n- Many restaurants have English menus or picture menus\n- Reservations are essential for high-end restaurants\n- Don't be afraid to point at pictures or use translation apps\n- Follow the locals' lead for the best dining etiquette",
+      "excerpt": "From street food to Michelin stars, experience the best of Tokyo's culinary scene...",
+      "author": "Rahul Patel",
+      "date": "2024-03-14",
+      "imageUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26",
+      "tags": ["Tokyo", "Food", "Travel"]
+    }
+  ]
+} 
