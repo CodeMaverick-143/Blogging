@@ -2,7 +2,7 @@
 
 Hey there! Welcome to Travlog, a sleek and modern blog application built with React, TypeScript, and Tailwind CSS. It's designed to be a clean, responsive, and user-friendly platform for sharing stories and ideas.
 
-Right now, it uses mock data stored locally, making it super easy to get started and experiment without needing a backend setup.
+Right now, it uses mock data stored locally, making it super easy to get started and experiment without needing a backend setup.....
 
 ## ✨ Key Features
 
